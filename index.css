@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    background-color:rgb(176, 155, 190);
+}
+section{
+    padding:100px;
+}
+.banner{
+    position:relative;
+    min-height:100vh;
+    background:url(03.jpg);
+    background-size:20%;
+    background-repeat: no-repeat;
+    background-position: right;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.banner h2{
+    font-size:3em;
+    color:rgb(68, 32, 32);
+    font-weight:500;
+    line-height:1.5em;
+}
+.banner h2 span{
+    font-size:1.5em;
+    font-weight:700;
+}
+.banner h3{
+    font-size:1.5em;
+    color:#fff;
+    font-weight:500;
+}
+.btn{
+    position:relative;
+    background:#2196f3;
+    display:inline-block;
+    color:#fff;
+    margin-top:20px;
+    padding:10px 30px;
+    font-size:18px;
+    text-tranforms:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    font-weight:500;
+}
+.box
+{
+    position:relative;
+    background:#2196f3;
+    display:inline-block;
+    color:#fff;
+    margin-top:20px;
+    padding:10px 30px;
+    font-size:18px;
+    text-tranforms:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    font-weight:500;
+}
+.car
+{
+    position:relative;
+    background:#2196f3;
+    display:inline-block;
+    color:#fff;
+    margin-top:20px;
+    padding:10px 30px;
+    font-size:18px;
+    text-tranforms:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    font-weight:500;
+}
+#about
+{
+    text-align:center;
+    background:rgb(54, 54, 117);
+    color:white;
+    padding:10px;
+    font-size:30px;
+}
+#skills
+{
+    text-align:center;
+    background:rgb(54, 54, 117);
+    color:white;
+    padding:10px;
+    font-size:30px;
+}
+#contact
+{
+    text-align:center;
+    background:rgb(54, 54, 117);
+    color:white;
+    padding:10px;
+    font-size:30px;
+}
+.mail{
+    color:rgb(14, 14, 107);
+    font-size:20px;
+}
+.para
+{
+    font-size:20px;
+    text-align-last:center;
+}
